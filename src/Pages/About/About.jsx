@@ -13,7 +13,7 @@ function About() {
           right to your doorstep, ensuring fast, reliable, and delicious
           delivery.
         </p>
-        <h2>Our Mission</h2>
+        <h2>Our Mission </h2>
         <p>
           Our mission is to make food delivery easy, convenient, and affordable
           for everyone. We partner with the best local restaurants to offer a
