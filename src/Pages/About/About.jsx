@@ -29,7 +29,7 @@ function About() {
         </p>
         <p>3. Checkout: Enter your delivery details and place your order.</p>
         <p>
-          4. Fast delivery: We will ensure your food arrives fresh and on time.
+          4. Fast delivery: We will ensure your food arrives fresh and on times.
         </p>
         <h2>Why Choose Us?</h2>
         <ul>
