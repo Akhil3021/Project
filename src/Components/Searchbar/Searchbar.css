@@ -1,0 +1,26 @@
+.search-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 5px 20px;
+}
+
+.search-container input[type="text"] {
+  width: 20%;
+  max-width: 500px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-container input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-container input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}

@@ -1,0 +1,109 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.restaurant-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 164vh; /* Full viewport height */
+  background-color: #f5f5f5; /* Optional background for better visibility */
+}
+.containers {
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant {
+  width: 80%; /* Adjust form width */
+  max-width: 700px; /* Limit maximum width */
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px; /* Add padding around the form */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Shadow for aesthetics */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.txt-field {
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 5px 0;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.address {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  gap: 20px; /* Space between the address fields */
+}
+.address .address-apt input {
+  width: 100%;
+}
+.address .address-street input {
+  width: 100%;
+}
+
+.address .address-apt,
+.address-street {
+  flex: 1; /* Allow to grow */
+}
+
+.address input {
+  margin: 5px 0;
+  width: 100%; /* Ensure full width within their flex containers */
+}
+
+/* Styled input fields */
+.txt-field input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.txt-field input:focus {
+  border-bottom-color: #000;
+}
+
+.reg-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reg-btn:hover {
+  background-color: #0056b3;
+}

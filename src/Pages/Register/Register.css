@@ -1,0 +1,76 @@
+label {
+  margin: 3px 0px;
+}
+input {
+  margin: 10px 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Take remaining space */
+}
+.register {
+  width: 80vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px; /* Ensure padding around the content */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for aesthetics */
+}
+
+body,
+html {
+  height: 100%; /* Ensure the body takes the full viewport height */
+}
+
+.container {
+  height: 100vh; /* Make sure the container takes the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-field input {
+  width: 60vh;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  transform-origin: left;
+  transform: scaleX(95%);
+}
+.txt-field select {
+  width: 60vh;
+  margin: 10px;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  transform: scaleX(95%);
+  transform-origin: left;
+}
+.txt-field select:focus {
+  transform: scaleX(100%);
+  /* transform: translateX(1%); */
+  transition: transform 0.3s ease;
+}
+
+.txt-field input:focus {
+  transform: scaleX(100%);
+  transform: translateX(1%);
+  transition: transform 0.3s ease;
+}
+
+.reg-btn {
+  width: 100%;
+}
