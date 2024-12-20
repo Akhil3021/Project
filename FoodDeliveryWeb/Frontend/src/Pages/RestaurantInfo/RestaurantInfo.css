@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive Layout for Restaurant Info */
+.restaurant-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* Image Styles */
+.restaurant-info img {
+  flex: 1 1 40%;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Info Section */
+.restaurant-details {
+  flex: 1 1 50%;
+  margin: 10px;
+  padding: 10px;
+  color: #333;
+}
+
+.restaurant-details p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.restaurant-details span {
+  font-weight: bold;
+  color: #000;
+}
+
+/* Buttons */
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .restaurant-info {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .restaurant-details {
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,76 @@
+.restaurant-orders {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.restaurant-orders h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #222;
+}
+
+.order-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: start;
+  gap: 20px;
+  border: 1px solid tomato;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.order-item-details {
+  grid-column: 1 / 2;
+}
+
+.order-item-meta {
+  grid-column: 2 / 3;
+}
+
+.order-item-items {
+  grid-column: 3 / 4;
+}
+
+.order-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-item-address {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.order-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-item li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+  .order-item {
+    font-size: 12px;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .order-item img {
+    width: 40px;
+  }
+
+  .order-item ul {
+    margin-top: 10px;
+  }
+}
